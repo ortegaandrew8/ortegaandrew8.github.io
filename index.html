@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect Button Example</title>
+</head>
 <body>
 
-<h1>My First Heading</h1>
+<h1>Hey there friend</h1>
 <p>Click the button if you dare.</p>
-<button type="button" onclick="alert('Now whyd you go and do that')">Click Me!</button>
+
+
+
+<button type="button" onclick="redirectToNewPage()">Click Me!</button>
+
+
+<script>
+  // JavaScript function to redirect to a new page
+  function redirectToNewPage() {
+    // Replace 'newpage.html' with the URL of the page you want to redirect to
+    window.location.href = 'newpage.html';
+  }
+</script>
+
 
 </body>
 </html>
